@@ -12,7 +12,7 @@ const projects = [
     description:
       "A task management app focused on productivity and smart dashboards.",
     image: "/projects/taskflow.png",
-    tags: ["React", "Tailwind CSS", "TypeScript", "Next.js", "Chart.js"],
+    tags: ["React", "Tailwind CSS", "TypeScript", "Vite", "Vercel", "Chart.js", "Framer Motion"],
     demoUrl: "https://flowmind-ai-qsv5.vercel.app/",
     codeUrl: "https://github.com/kuutam/flowmind-ai",
     category: "Dashboard",
