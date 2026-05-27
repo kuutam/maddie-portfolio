@@ -225,7 +225,7 @@ export default function Hero() {
                 margin: 0,
               }}
             >
-              ¡Hello! 🤚 I'm
+              Hello! 👋 I'm
             </p>
 
             {/* Nombre + título */}
@@ -269,7 +269,7 @@ export default function Hero() {
                 margin: 0,
               }}
             >
-              I create modern, fast, and functional web experiences that help businesses and individuals grow.
+              I create modern, fast, and functional web experiences that help businesses and individuals to grow.
             </p>
 
             {/* Botones */}
