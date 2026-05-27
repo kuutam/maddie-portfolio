@@ -1,36 +1,168 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Maddie.dev — Personal Portfolio
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+![Portfolio Preview](public/preview.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38BDF8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-latest-FF0055?style=for-the-badge&logo=framer)](https://www.framer.com/motion/)
+[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel)](https://vercel.com/)
+
+**Personal portfolio of Maddie — Junior Full Stack Developer**
+
+[🌐 Live Demo](https://maddie-portfolio-brown.vercel.app/) · [📧 Contact](mailto:contact_madd@pm.me) · [💼 LinkedIn](https://linkedin.com/in/kuutam)
+
+</div>
+
+---
+
+## ✨ Overview
+
+A personal portfolio designed and built from scratch with a focus on **modern UI/UX**, **smooth animations**, and **fully responsive design**. Built with the most in-demand technologies in today's market.
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|----------|-----------|
+| **Framework** | Next.js 15 (App Router) |
+| **UI Library** | React 19 |
+| **Language** | TypeScript |
+| **Styling** | Tailwind CSS v4 + Custom CSS |
+| **Animations** | Framer Motion |
+| **Email** | EmailJS |
+| **Deployment** | Vercel |
+
+## 📁 Project Structure
+
+```
+maddie-portfolio/
+├── public/
+│   ├── hero-photo.png
+│   ├── cv.pdf
+│   └── projects/
+│       ├── taskflow.png
+│       └── ...
+├── src/
+│   ├── app/
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components/
+│   │   ├── Navbar.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Projects.tsx
+│   │   ├── About.tsx
+│   │   ├── Skills.tsx
+│   │   └── Contact.tsx
+│   └── hooks/
+│       └── useResponsive.ts
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Sections
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Hero** — Introduction with animated circular photo, floating tech icons, and dynamic gradient effect
+- **Projects** — Cards with screenshots, technology tags, and links to demo/code
+- **About Me** — Personal bio + animated stats cards
+- **Skills** — Tech stack organized by category + animated workflow timeline
+- **Contact** — Functional contact form with EmailJS + social media links
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+```bash
+# 1. Clone the repository
+git clone https://github.com/kuutam/maddie-portfolio.git
 
-To learn more about Next.js, take a look at the following resources:
+# 2. Navigate to the project directory
+cd maddie-portfolio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 3. Install dependencies
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 4. Set up environment variables
+cp .env.example .env.local
 
-## Deploy on Vercel
+# 5. Start the development server
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚙️ Environment Variables
+
+Create a `.env.local` file in the root of the project:
+
+```env
+# EmailJS (for the contact form)
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+## 📱 Responsive Design
+
+The portfolio is fully optimized for all devices:
+
+| Device | Breakpoint |
+|--------|-----------|
+| 📱 Mobile | < 768px |
+| 📟 Tablet | 768px — 1024px |
+| 🖥️ Desktop | > 1024px |
+
+## 🌟 Features
+
+- ✅ **Dark mode** design with purple/blue gradients
+- ✅ **Smooth animations** with Framer Motion and CSS keyframes
+- ✅ **Floating Navbar** with hamburger menu on mobile
+- ✅ **Animated circular photo** with spinning border and glow effect
+- ✅ **Functional contact form** powered by EmailJS
+- ✅ **Fully responsive** — mobile, tablet and desktop
+- ✅ **Optimized performance** with Next.js App Router
+- ✅ **Basic SEO** configured
+- ✅ **Sequential workflow animation** with pulsing step indicators
+
+## 📦 Available Scripts
+
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run start    # Start production server
+npm run lint     # Run ESLint
+```
+
+## 🚢 Deployment
+
+This project is configured for automatic deployment on **Vercel**.
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel
+```
+
+Or connect your repository directly on [vercel.com](https://vercel.com) for automatic deployment on every push to `main`.
+
+## 📬 Contact
+
+Have a question or want to collaborate?
+
+- 📧 Email: [contact_madd@pm.me](mailto:contact_madd@pm.me)
+- 💼 LinkedIn: [Madeline Ascencio](https://linkedin.com/in/kuutam)
+- 🐙 GitHub: [@kuutam_o](https://github.com/kuutam)
+- 📺 YouTube: [@kaihackss](https://youtube.com/@kaihackss)
+- 🎵 TikTok: [@kaihacks](https://tiktok.com/@kaihacks)
+
+---
+
+<div align="center">
+
+Made with ❤️ and lots of coffee ☕ by **Maddie**
+
+⭐ If you like this project, please give it a star!
+
+</div>
