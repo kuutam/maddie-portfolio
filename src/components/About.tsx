@@ -151,10 +151,10 @@ export default function About() {
           <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
 
             <p style={{ color: "#cbd5e1", fontSize: "16px", lineHeight: "1.8", margin: 0 }}>
-              I am a {" "}
+              I'm a {" "}
               <strong style={{ color: "#f1f5f9", fontWeight: 700 }}>Computer Science</strong>
-              {" "}student and Junior Full Stack Developer. I love solving problems and translating ideas
-              into clean, accessible interfaces with purpose.
+              {" "}student and Full-Stack Developer. I love solving problems and turning ideas into clean, 
+              accessible, and purposeful interfaces.
             </p>
 
             <p style={{ color: "#cbd5e1", fontSize: "16px", lineHeight: "1.8", margin: 0 }}>
