@@ -382,7 +382,7 @@ export default function Contact() {
             </span>
           </h2>
           <p style={{ color: "#94a3b8", fontSize: "16px", margin: 0 }}>
-            Do you have an idea, project, or collaboration in mind? Write to me.
+            Do you have an idea, project, or collaboration in mind? Write it down to me.
           </p>
         </div>
 
