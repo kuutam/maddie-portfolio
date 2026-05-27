@@ -13,7 +13,7 @@ export function useResponsive() {
   }, []);
 
   return {
-    isMobile: width < 768,       // 👈 sin el w > 0, 0 < 768 = true = mobile por defecto
+    isMobile: width < 768,      
     isTablet: width >= 768 && width < 1024,
     isDesktop: width >= 1024,
     isReady: width > 0,
